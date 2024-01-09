@@ -1,7 +1,8 @@
 body {
   background-image: url("00001.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   background-color: #1c1c1c;
   color: #fff;
   font-family: "Roboto", sans-serif;
