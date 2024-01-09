@@ -1,4 +1,7 @@
 body {
+  background-image: url("00001.jpg");
+  background-size: cover;
+  background-position: center;
   background-color: #1c1c1c;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -7,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -35,4 +38,13 @@ h1 {
 
 .homework-link:hover {
   color: #ffcc00;
+}
+
+.square {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 20px;
 }
